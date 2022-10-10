@@ -10,6 +10,7 @@ function uploadFile() {
             body: formData,
         })
         .then(response => {
+            window.location.reload();
             console.log(response);
         })
         .catch(error => {
