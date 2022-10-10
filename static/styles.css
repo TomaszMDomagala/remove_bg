@@ -1,0 +1,62 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+
+body {
+    padding: 10px;
+}
+
+label {
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+}
+
+form {
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.file_link {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    block-size: fit-content;
+}
+
+.file_link:link {
+    text-decoration: none;
+}
+
+.file_link:visited {
+    text-decoration: none;
+}
+
+.file_link:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer
+}
+
+.file_link:active {
+    text-decoration: none;
+}
+
+.file_name {
+
+}
+
+.file_list {
+    padding: 50px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.file_upload {
+    text-align: center;
+}
+
+.upload {
+
+}
